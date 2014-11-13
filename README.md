@@ -1,5 +1,5 @@
-Role Name
-=========
+Ansible-common-yum-pkgs-el6
+===========================
 
 Installs common yum packages on all my EL6 hosts.
 
