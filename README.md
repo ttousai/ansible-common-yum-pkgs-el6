@@ -13,9 +13,9 @@ Role Variables
 
 The following are the variables used in this role
 
-defaults/main.yml:
-devpkgs: a list of development packages to install.
-epel_url: the URL for the EPEL repository package to install.
+defaults/main.yml:  
+devpkgs: a list of development packages to install.  
+epel_url: the URL for the EPEL repository package to install.  
 pkgs: a list of the common packages to install.
 
 Dependencies
@@ -40,6 +40,6 @@ BSD
 Author Information
 ------------------
 
-Abubakr-Sadik Nii Nai Davis
-https://github.com/ttousai
-@ttousai
+Abubakr-Sadik Nii Nai Davis  
+https://github.com/ttousai  
+@ttousai  
