@@ -1,0 +1,29 @@
+---
+
+epel_url: "http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm"
+
+pkgs:
+  - chkrootkit
+  - man
+  - which
+  - bind-utils
+  - wget
+  - vim-enhanced
+  - mailx
+  - telnet
+  - logwatch
+  - ntp
+  - mlocate
+  - emacs-nox
+  - rsync
+  - iotop
+  - yum-plugin-protectbase
+
+devpkgs:
+  - make
+  - gcc
+  - gcc-c++
+  - zlib-devel
+  - git
+  - mercurial
+  - perl-ExtUtils-Embed

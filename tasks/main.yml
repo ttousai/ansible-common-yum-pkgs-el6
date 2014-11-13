@@ -1,0 +1,29 @@
+---
+
+- name: install EPEL repository
+  yum:
+    name: "{{epel_url}}"
+    state: present
+
+- name: update yum
+  yum:
+    name: "*"
+    state: latest
+
+- name: install common yum packages
+  yum:
+    name: "{{item}}"
+    state: present
+  with_items: pkgs
+
+- name: install yum devel tools
+  yum:
+    name: "{{ item  }}"
+    state: present
+  with_items: devpkgs
+
+- name: update locate file database
+  command: /usr/bin/updatedb
+
+- name: start ntp at boot
+  command: /sbin/chkconfig ntpd on
